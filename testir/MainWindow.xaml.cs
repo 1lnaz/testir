@@ -25,6 +25,11 @@ namespace testir
         {
             InitializeComponent();
             PenList.ItemsSource = dbConnect.db.Pen.ToList();
+
+            if (InSortBox.SelectedIndex == 1)
+            {
+
+            }
         }
 
     }
